@@ -1,0 +1,34 @@
+tensorflow
+keras
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+
+joblib
+
+# model 
+# pickle
+
+# for the traking 
+mlflow 
+
+
+missingno
+
+
+
+flask
+ipykernel
+ydata-profiling
+
+dvc 
+
+
+
+
+
+
+
+
