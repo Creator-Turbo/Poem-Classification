@@ -1,14 +1,18 @@
-tensorflow
-keras
 numpy
 pandas
 matplotlib
 seaborn
 scikit-learn
 
-joblib
+
+# preprocesseing 
+textblob
+wordninja
+nltk
+inflect
 
 # model 
+joblib
 # pickle
 
 # for the traking 

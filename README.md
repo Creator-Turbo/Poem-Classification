@@ -1,4 +1,4 @@
-# Poem-Classification using Deep leanring  
+# Poem Classification using Machine Learning
 
 ### Table of Contents
 - [Demo](#demo)
@@ -18,7 +18,7 @@
 
 ---
 ## Demo
-This project classifies poems into different categories using deep learning.<br>
+This project classifies poems into different categories using machine learning.<br>
 **Link to Demo:** [Netflix-Recommendation-System](#) 
 
 
@@ -30,34 +30,17 @@ This project classifies poems into different categories using deep learning.<br>
 ---
 
 ## Overview
-The Poem Classification system leverages natural language processing (NLP) and deep learning techniques to categorize poems into predefined genres.
+The Poem Classification project utilizes Natural Language Processing (NLP) and machine learning to categorize poems. This model is capable of understanding different poetry styles, such as Haiku, Sonnet, Free Verse, and more. It is designed to help literature enthusiasts, educators, and researchers analyze poetry more effectively.
 
-Key features:
+Key Features:
 
-- Text classification using deep learning models (LSTM, CNN, Transformers).
+- Preprocessing of Poem Text Data
 
-- Preprocessing of poetic text using tokenization and word embeddings.
+- Classification using Advanced ML and NLP Models
 
-- Model trained on a diverse poem dataset.
+- Interactive Web Application for Real-time Predictions
 
-- Web-based interface for poem classification.
-
-- Model Performance
-
-Evaluation Metrics:
-
-- Accuracy Score: Measures the correctness of classifications.
-
-- Precision, Recall, and F1-Score: Ensures balanced performance evaluation.
-
-Model Training Details:
-
-- Word Embedding: Pre-trained GloVe or Word2Vec.
-
-- Model Architectures: LSTM, Bi-LSTM, CNN, Transformers.
-
-- Dataset: Collected poetry dataset from multiple sources.
-
+- Deployment on Render for Public Access
 ---
 
 ## Motivation
@@ -68,27 +51,36 @@ recommendation systems, and educational tools. This project showcases the power 
 
 ## Technical Aspect
 ### Training Recommendation Model:
+
 Data Collection:
 
-- containing poetry texts and their genres.
+- A dataset of poems is sourced from public repositories and literature archives.
 
 Preprocessing:
 
-- Cleaning text by removing special characters and stopwords.
+- Text cleaning (removal of special characters, punctuation, and stopwords).
 
-- Tokenization and conversion to numerical representations using word embeddings.
+- Tokenization and lemmatization.
+
+- Vectorization using TF-IDF or Word Embeddings (Word2Vec, GloVe).
 
 Model Training:
 
-- Training deep learning models to classify poems.
+- Classifiers Used: Naive Bayes, Support Vector Machine (SVM), and BERT.
 
-- Applying model tracking using MLflow for experiment tracking and logging.
+- Hyperparameter tuning for improved performance.
 
-Web Application:
+Model Evaluation:
 
-- A Flask-based web app for user interaction.
+- Metrics: Accuracy, Precision, Recall, and F1 Score.
 
-- Deployed on Render for public access.
+Web App Development:
+
+- Built using Flask.
+
+- User input for poem text classification.
+
+- Deployed on Render.
 ---
 
 ## Installation
@@ -133,11 +125,13 @@ To deploy the Flask web app on Render:
 
 ## To Do
 
-- Expand dataset for better classification accuracy.
+- Expand dataset for better generalization.
 
-- Experiment with different deep learning architectures.
+- Implement deep learning models like BERT or GPT.
 
-- Integrate additional NLP techniques for feature engineering.
+- Enhance the web app with visualization features.
+
+- Optimize model inference speed.
 
 ## Bug / Feature Request
 If you encounter any bugs or want to request a new feature, please open an issue on GitHub. Contributions are welcome!
