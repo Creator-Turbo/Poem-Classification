@@ -25,7 +25,7 @@ This project classifies poems into different categories using machine learning.<
 
 
 
-![Poem-Classification](https://i.imgur.com/IP32cfX.jpeg)
+![Poem-Classification](https://i.imgur.com/X3MkbX1.jpeg)
 
 ---
 
