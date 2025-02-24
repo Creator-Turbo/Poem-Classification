@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poem Classification Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Classification Result</h1>
+        <p><strong>Poem:</strong> {{ poem }}</p>
+        <p><strong>Predicted Category:</strong> {{ category }}</p>
+        <a href="/">Classify Another Poem</a>
+    </div>
+</body>
+</html>
